@@ -744,6 +744,10 @@ body {
     font-size: 15px;
   }
 
+  .header__logo {
+    z-index: 6;
+  }
+
   .menu__btn {
     display: block;
     background-color: transparent;
@@ -751,7 +755,7 @@ body {
     padding: 0;
     outline: none;
     position: relative;
-    z-index: 2;
+    z-index: 6;
   }
 
   .header__inner {
@@ -803,4 +807,8 @@ body {
   .header__logo {
     margin-right: 200px;
   }
+  .header__title {
+    display: none;
+  }
+
 }
